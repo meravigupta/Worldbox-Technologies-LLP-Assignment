@@ -90,7 +90,8 @@ def getData(url, letters):
                 time.sleep(15)
                 break
 
-        time.sleep(10)  # Adjust the delay as needed
+        time.sleep(10)  # Adjust the delay as needed timer in seconds here 
+    driver.quit()
 
 def main():
     url = "https://www.uid.admin.ch/Search.aspx"
